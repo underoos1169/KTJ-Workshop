@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MusicX - Online Open-Source Music Streaming Platform</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+
+  <nav>
+    <input type="checkbox" id="sidebar-active">
+    <label for="sidebar-active" class="open-sidebar-button">
+      <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+    </label>
+    <label for="sidebar-active"></label>
+    <div class="links-container">
+      <label for="sidebar-active" class="close-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+      </label>
+      <img src="Logo.svg" width="50" height="50" class="LogoIcon"><div class="Logo">MusicX</div>
+      <a href="#Introduction">Introduction</a>
+      <a href="#FP">Featured Playlists</a>
+      <a href="#RA">Recommended Albums</a>
+      <a href="#UR">User Reviews</a>
+    </div>
+  </nav>
+
+  <section id="Introduction">
+    <div class="intro-background">
+      <div class="intro-container">
+        <div class="left-flex-item">
+          <div class="Platform-Name"><img src="Logo.svg" width="50" height="50" class="Platform-Logo">MusicX</div>
+          <div class="Subtitle">Open-source music streaming platform</div>
+          <div class="FP-Inclusion"><p style="font-size: 16pt;">Check out this month's</p><a href="#FP" class="FP-Button" style="text-decoration: none; color: white; font-size: 16pt; padding-left: 5px; font-weight: bold;">Featured Playlists</a></div>
+        </div>
+        <div class="right-flex-item"><img src="music.svg" width="400" height="400" style="border-radius:10px; padding : 50px; background-color: rgba(0, 0, 0, 0.552);"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="FP">
+  <div class="FP-Background">
+    <div class="Featured-Playlists-Container">
+      <div class="Featured-Playlists-Title-Box">
+        <div class="FP-Title">Featured Playlists</div>
+        <div class="FP-Subtitle">Here is our collection of some selected playlists—just for you</div>
+      </div>
+      <div class="FP-Playlists">
+        <div class="Playlist-1">
+          <p style="text-align: right; font-size: 10px; position: fixed; right: 5px;">32 songs</p>
+          <img src="undraw_dua_lipa_ixam.svg" width="150" height="150" style="padding-top: 0px;">
+          <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Dance Music</p>
+          <p style="text-align: center;">Our selection of music which is sure to make you get to the dance floor</p>
+        </div>
+        <div class="Playlist-2">
+          <p style="text-align: right; font-size: 10px; position: fixed; right: 5px;">78 songs</p>
+          <img src="undraw_indoor_bike_pwa4.svg" width="150" height="140" style="padding-top: 10px;">
+          <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Sports Mix</p>
+          <p style="text-align: center;">The perfect songs to get that adrenaline-boost that you need</p>
+        </div>
+        <div class="Playlist-3">
+          <p style="text-align: right; font-size: 10px; position: fixed; right: 5px;">46 songs</p>
+          <img src="undraw_reading_time_re_phf7.svg" width="150" height="150">
+          <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Study Time</p>
+          <p style="text-align: center;">Specially picked beats to create an inducive environment</p>
+        </div>
+        <div class="Playlist-4">
+          <p style="text-align: right; font-size: 10px; position: fixed; right: 8px;">39 songs</p>
+          <img src="undraw_super_woman_dv-0-y.svg" width="150" height="140" style="padding-top: 10px;">
+          <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Energizing Beats</p>
+          <p style="text-align: center; ">Our collection of songs that make you feel like a superhero</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="RA">
+  <div class="RA-Background">
+    <div class="Rec-Albums-Container">
+      <div class="Rec-Albums-TitleBox">
+        <div class="Rec-Albums-Title">Recommended Albums</div>
+        <div class="Rec-Albums-Subtitle">Our selection of top albums</div>
+      </div>
+      <div class="SearchBox">
+        <form>
+          <input type="text" placeholder="Search albums">
+          <button type="submit"><span class="material-symbols-outlined">search</span></button>
+        </form>
+      </div>
+      <div class="Rec-Playlists">
+        <div class="Rec-Playlists-top">
+          <div class="PL-1">
+            <p style="text-align: right; font-size: 10px; position: fixed; right: 5px;">32 songs</p>
+            <img src="undraw_coding_re_iv62.svg" width="150" height="150" style="padding-top: 0px;">
+            <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Coding Mix</p>
+            <p style="text-align: center;">Top beats used by coders. Trust us, we know!</p>
+            <div class="km1">Know More</div>
+          </div>
+          <div class="PL-2">
+            <p style="text-align: right; font-size: 10px; position: fixed; right: 5px;">32 songs</p>
+            <img src="undraw_couple_re_94tl.svg" width="150" height="150" style="padding-top: 0px;">
+            <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Romance Music</p>
+            <p style="text-align: center;">Songs for all the perfect couples out there</p>
+            <div class="km2">Know More</div>
+          </div>
+          <div class="PL-3">
+            <p style="text-align: right; font-size: 10px; position: fixed; right: 5px;">46 songs</p>
+            <img src="undraw_feeling_blue_-4-b7q.svg" width="150" height="150" style="padding-top: 0px;">
+            <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Sad Mix</p>
+            <p style="text-align: center;">Beats for times we just don't want to be our happy self</p>
+            <div class="km3">Know More</div>
+          </div>
+          <div class="PL-4">
+            <p style="text-align: right; font-size: 10px; position: fixed; right: 8px;">39 songs</p>
+            <img src="undraw_subway_-7-vh7.svg" width="150" height="150" style="padding-top: 0px;">
+            <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Subway Mix</p>
+            <p style="text-align: center; ">Our collection of music that'll drown out the noise in the train</p>
+            <div class="km4">Know More</div>
+          </div>
+        </div>
+        <div class="Rec-Playlists-bottom">
+          <div class="PL-5">
+            <p style="text-align: right; font-size: 10px; position: fixed; right: 8px;">39 songs</p>
+            <img src="undraw_travel_mode_re_2lxo.svg" width="150" height="150" style="padding-top: 0px;">
+            <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Travel Music</p>
+            <p style="text-align: center; ">Beats for the perfect car trip</p>
+            <div class="km5">Know More</div>
+          </div>
+          <div class="PL-6">
+            <p style="text-align: right; font-size: 10px; position: fixed; right: 8px;">39 songs</p>
+            <img src="undraw_meditation_re_gll0.svg" width="150" height="150" style="padding-top: 0px;">
+            <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Calm Beats</p>
+            <p style="text-align: center; ">Peaceful music that'll calm you down</p>
+            <div class="km6">Know More</div>
+          </div>
+          <div class="PL-7">
+            <p style="text-align: right; font-size: 10px; position: fixed; right: 8px;">39 songs</p>
+            <img src="undraw_mornings_re_cofi.svg" width="150" height="150" style="padding-top: 0px;">
+            <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Morning Music</p>
+            <p style="text-align: center; ">Bright music to make your mornings brighter</p>
+            <div class="km7">Know More</div>
+          </div>
+          <div class="PL-8">
+            <p style="text-align: right; font-size: 10px; position: fixed; right: 8px;">39 songs</p>
+            <img src="undraw_partying_re_at7f.svg" width="150" height="150" style="padding-top: 0px;">
+            <p style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top:  25px; padding-bottom: 7px;">Party Music</p>            
+            <p style="text-align: center; ">Music to make your parties wilder</p>
+            <div class="km8">Know More</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="UR">
+  <div class="UR-Background">
+    <div class="User-Reviews">
+      <div class="User-Reviews-TitleBox">
+        <div class="User-Reviews-Title">User Reviews</div>
+        <div class="User-Reviews-Subtitle">Thoughts shared by our users</div>
+      </div>
+      <div class="Reviews">
+        <div class="UR-Left">
+          <div class="User-Reviews-List-Container">
+            <div class="UR-1">
+              <img src="user.svg" style="margin-right:10px;" height="40" width="40">
+              <div class="UR-1-Card">
+                <div class="Name" style="margin-bottom: 1px;">Satakshi Chauhan</div>
+                <div class="Comment">Amazing site! Work on the UI though :D</div>
+              </div>
+            </div>
+            <div class="UR-2">
+              <img src="user.svg" style="margin-right:10px;" height="40" width="40">
+              <div class="UR-2-Card">
+                <div class="Name" style="margin-bottom: 1px;">Deshmukh Atharva</div>
+                <div class="Comment">Terrible site! Work on everything</div>
+              </div>
+            </div>
+            <div class="UR-3">
+              <img src="user.svg" style="margin-right:10px;" height="40" width="40">
+              <div class="UR-3-Card">
+                <div class="Name" style="margin-bottom: 1px;">underoos1169</div>
+                <div class="Comment">Coding Playlist is inaccurate af</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="UR-Right">
+          <form class="UR-Form" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 15px;">
+            <div>
+              <label for="Display-Name">Display Name: </label>
+              <input type="text" id="Display-Name" name="Display-Name" placeholder="Name " size="20px" style="border-radius: 3px; font-size: 15px; padding: 2px">
+            </div>
+            <br>
+            <div>
+              <label for="mail-id">Email address: </label>
+              <input type="text" id="mail-id" name="mail-id" placeholder="E-mail id" size="20px" style="border-radius: 3px; font-size: 15px; padding: 2px;">
+            </div>
+            <br>
+            <div>
+              <label for="review">Review: </label>
+              <input type="text" id="review" name="review" placeholder="Comment" size="20px" style="border-radius: 3px; font-size: 15px; line-height: 40px; padding: 2px;">
+            </div>
+            <br>
+            <div>
+              <input type="reset" name="reset" id="reset" style="padding: 3px; font-size: 15px; font-weight: bold;">
+            </div>
+            <div>
+              <input type="submit" name="submit" id="submit" style="padding: 8px; font-size: 18px; font-weight: bold; margin-top: 10px;">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+
+  <footer>
+    <div class="TnC">
+      <a href="https://www.spotify.com/us/legal/end-user-agreement/" style="color: white; padding: 1px 3px 1px 3px;" target="_blank">Terms and Conditions</a>
+      <p style="color: white; padding: 1px 3px 1px 3px;">|</p>
+      <a href="https://www.spotify.com/us/legal/privacy-policy/" style="color: white; padding: 1px 3px 1px 3px;" target="_blank">Privacy Policy</a>
+    </div>
+    <div class="icons">
+      <p style="color: white; " class="Follow-Us-Text">Follow us: </p>
+      <a class="insta-icon" href="https://www.instagram.com/jaypatil070/" style="font-size: 24px; right: 0;"><i class="fa fa-instagram"></i></a>
+      <a class="fb-icon" href="https://www.facebook.com/profile.php?id=61550823868690" style="font-size: 24px;"><i class="fa fa-facebook"></i></a>
+      <a class="yt-icon" href="https://www.youtube.com/" style="font-size: 24px;"><i class="fa fa-youtube-play"></i></a>
+      <a class="linkedin-icon" href="https://www.linkedin.com/in/jay-patil-4024a0288/" style="font-size: 24px;"><i class="fa fa-linkedin"></i></a>
+    </div>
+    
+  </footer>
+  <a class="back-to-top" href="#"><span class="material-symbols-outlined">arrow_upward</span></a>
+  </body>
